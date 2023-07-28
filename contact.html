@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <link rel="icon" href="./image/title icon.png" type="image/x-icon">
     <link rel="stylesheet" href="./css/style.css">
     <title>Contuct Me</title>
 </head>
+
 <body>
     <!-- Header start-->
     <header>
@@ -15,20 +17,29 @@
                 <th> <a href="result.html">Result</a> </th>
                 <th> <a href="location.html">Location</a> </th>
                 <th> <a href="video_resume.html">My Resume</a> </th>
-                <th> <a href="contact.html">Contact Me</a> </th>                
+                <th> <a href="contact.html">Contact Me</a> </th>
             </tr>
         </table>
     </header>
     <!-- Header End-->
 
-    <h1 style="margin: 20px;"><i>Contact Me</i></h1>
-
-    <form id="ContactMeForm" action="contact.php" method="post">
-      <input type="text" name="name" placeholder="Your Name" style="width: 200px;"><br><br>
-      <input type="email" name="email" placeholder="Your Email" style="width: 200px"><br><br>
-      <input type="message" name="message" style="width: 700px; height: 450px;"><br><br>
-      <input type="submit" value="Send">
+    <center><h1>My Contact Details</h1></center>
+    <div class="Margin">
+        <p>Phone Number: &emsp;+8801512345678</p>
+        <p>Email: &emsp;&emsp;&emsp;&emsp;&emsp;ashiqur35-3162@diu.edu.bd</p>
+        <hr style="width: 40%;">
+    </div>
+    <form action="mailto:mdashik1404@gmail.com" method="post" enctype="text/plain">
+        <input type="date"><br><br>
+        <label>Your Name:</label> &nbsp;
+        <input type="text" name="yourName" value=""><br><br>
+        <label>Your Email:</label> &nbsp;
+        <input type="email" name="yourEmail" value=""><br><br>
+        <label>Your Message:</label><br>
+        <textarea name="yourMessage" rows="10" cols="30"></textarea><br>
+        <input type="submit" name="">
     </form>
-    
+
 </body>
+
 </html>
